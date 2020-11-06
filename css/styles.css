@@ -1,0 +1,326 @@
+*{
+	font-family:"helvetica";
+}
+body {
+  font-family: "helvetica";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1;
+  color:#512C1B;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+.white-section {
+  background-color:brown;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:#3659A2;
+}
+.navbar-brand:hover {
+  color:orange;
+  
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight:bold;
+  font-family: "Montserrat-Light";
+  color:blue;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 700%;
+  /*transform: rotate(25deg);*/
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.content img{
+	
+	width:400px;height:300px;
+	
+
+}
+
+.content img:hover{
+	opacity:0.7;
+	border-color:white;
+}
+ 
+ .white{
+	 background:white;
+ }
+ 
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.input-box{
+	padding:1% 5%;
+}
+.btn2{
+  background-color: blue;
+  color:white;
+  font-size:0.875rem;
+  padding:0.8rem 3rem;
+  border-radius:0;
+  box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(255, 99, 71, 0.2)
+;
+}
+.btn2:hover{
+	color:black;
+}
+
+.card{
+	box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(255, 99, 71, 0.2)
+;
+}
+.popular{
+	padding:1%;
+}
+.menu{
+	border-radius:50%;
+}
+.food{
+	margin-bottom:20px;
+}
+.tab2 {
+  display: inline-block;
+   margin-left: 80px;
+ }
+ #footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.hie{
+  border-radius:50%;
+  padding:1rem 1rem;
+  margin:34px 0 18px 0;
+}
+.blur-effect{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color: #fff;
+opacity:0.9;
+}
+
+.features{
+  background-image: url('images/flower5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+
+.ci{
+  color:black;
+  font-weight: bolder;
+}
+.sub{
+  padding-top:3%;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+.backfade{
+  position:absolute;
+  background-color:#0a4065;
+  opacity:0.49;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+#package {
+  padding: 50px;
+  text-align: center;
+}
+.bi{
+  width:100%;
+  background-image: url('../images/food9.png');
+  position:relative;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.explore-food {
+  padding: 3% 10%;
+}
+.pp{
+  color:white;
+  font-size: 2.7rem;
+  font-weight: bolder;
+  font-family:georgia;
+  margin:30px 0px;
+}
+
+.pp1{
+  color:white;
+  text-align: center;
+  margin:0 20%;
+}
